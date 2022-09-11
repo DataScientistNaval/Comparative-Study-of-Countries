@@ -38,10 +38,10 @@ Align all sheets in the dashboard
 
 Partition the dashboard to display the below details of Primary Region and Secondary Region
 
-First Order Date
-Total Sales
-Average Sales per Order
-No. of Customers
-No. of Orders
-No. of Products in Sale
+First Order Date,
+Total Sales,
+Average Sales per Order,
+No. of Customers,
+No. of Orders,
+No. of Products in Sale.
 
