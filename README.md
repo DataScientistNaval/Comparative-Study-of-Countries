@@ -1,28 +1,47 @@
-# Comparative-Study-of-Countries
 DESCRIPTION
 
-You are a data analyst working for an insurance company. The company is expanding and wants to open new branches in various parts of the world. Your task is to compare various parameters such as income, life insurance share, market share, penetration, ratio of reinsurance accepted, and retention ratio of different countries using the sample insurance dataset and world development indicators dataset.
+The director of a leading organization wants to compare the sales between two regions. He has asked each region operators to record the sales data to compare by region. The upper management wants to visualize the sales data using a dashboard to understand the performance between them and suggest the necessary improvements.
 
  
 
-Objective: 
+Objective: Help the organization by creating a dashboard to visualize the sales comparison between two selected regions.
 
-Create a dashboard to compare all the parameters mentioned above for different countries, to strategize market penetration and to target new customers.
+Datasets: Sample Superstore
 
-Datasets:
-
-Primary Dataset – Insurance Sample Dataset
-
-Secondary Dataset – Global Financial Development Database
-
-Note: Use Data Blending with Relationships between Country Code, Country, and Year
+ 
 
 Steps to Perform: 
 
-Create a geographic map showing the countries' fields. Color the map based on the income column from the secondary dataset
+Select Sample Superstore as Dataset  
 
-Include income group filter in the dashboard
+Use Sample Superstore Dataset
 
-Include a webpage to show data from the world bank webpage driven by an URL action from a geography graph
+Select Data
 
-The country names in the map will act as the trigger
+Use Group by from Data Source Table on a Folder to create a folder to segregate the required data for Customer Name and Order ID inorder to organize the data thoroughly.
+
+Create a hierarchy called Location for the variable Country. 
+
+Create two parameters: Primary Region and Secondary Region with all regions listed in them. Here, primary and secondary region are the two regions where the sales are being compared.
+
+Create Parameters for Primary Region and Secondary Region
+
+Create a Calculated Field for both Primary Region and Secondary Region
+
+Create a First Order Date
+
+Create a Calculated Field and name it as the First Order Date
+
+Create a dashboard
+
+Align all sheets in the dashboard
+
+Partition the dashboard to display the below details of Primary Region and Secondary Region
+
+First Order Date
+Total Sales
+Average Sales per Order
+No. of Customers
+No. of Orders
+No. of Products in Sale
+
